@@ -11,6 +11,10 @@ __pycache__/
 *.RData
 *.Rhistory
 
+# MacOS
+
+*.DS_Store
+
 # Distribution / packaging
 .Python
 build/
