@@ -59,6 +59,8 @@ source .venv/bin/activate
 python manage.py runserver
 ```
 
+This will start a development server at http://127.0.0.1:8000. You can open that address to run the task in online mode or you can open http://127.0.0.1:8000?mode=2 to run it in offline mode (it will use a larger set of stimuli and longer timeout), or even http://127.0.0.1:8000?mode=3 to run it in debug mode (it just use a very small set of stimuli). Head out to http://127.0.0.1:8000/settings to configure the size of the set of stimuli in each mode, to http://127.0.0.1:8000/admin to see the replies and to http://127.0.0.1:8000/api to interact with the REST interface.
+
 ## Adaptation
 
 ### Updating the set of stimuli (videos with LSU signs)
