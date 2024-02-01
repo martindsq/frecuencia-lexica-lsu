@@ -244,14 +244,14 @@
               <h1>Formulario</h1>
             </div>
             <div class="row">
-              <div class="col-6 pb-3 pb-md-0">
+              <div class="col-12 col-sm-6 pb-3 pb-md-0">
                 <div class="ratio ratio-4x3">
                   <video controls autoplay muted playsinline width="640" height="512">
                     <source src="${ hint_video }" type="video/mp4">
                   </video>
                 </div>
               </div>
-              <div class="col text-start">
+              <div class="col-12 col-sm-6 text-start">
                 <div class="mb-3">
                   <label for="formControlInput" class="form-label">{{ step.label }}</label>
                   {% if step.type == 'text' %}
@@ -346,7 +346,7 @@
       type: jsPsychVideoButtonResponse,
       stimulus: jsPsych.timelineVariable('stimulus'),
       autoplay: true,
-      controls: true,
+      controls: false,
       choices: likert,
       button_html: '<button class="btn btn-outline-secondary rounded-circle my-3">%choice%</button>',
       prompt: '<p>¿Que tan seguido ves esta seña?</p>',

@@ -147,7 +147,7 @@ var jsPsychVideoButtonResponse = (function (jspsych) {
           if (trial.controls) {
               video_html += " controls "; 
           }
-          video_html += " playsinline ";
+          video_html += " playsinline muted loop ";
           if (trial.start !== null) {
               // hide video element when page loads if the start time is specified,
               // to prevent the video element from showing the first frame
