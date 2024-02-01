@@ -1,6 +1,6 @@
 # Frecuencia léxica del LSU
 
-_Frecuencia léxica del LSU_ is a task that gathers subjective frequency ratings for 278 signs from the Uruguayan sign language (LSU). The task was programmed using [Django](https://www.djangoproject.com/), [Bootstrap](https://getbootstrap.com) and [jsPsych](https://www.jspsych.org), and can be run online or offline (it is configured to display a larger list of signs if it is being run offline and a longer timeout for ending the task).
+_Frecuencia léxica del LSU_ is a task that gathers subjective frequency ratings for 277 signs from the Uruguayan sign language (LSU). The task was programmed using [Django](https://www.djangoproject.com/), [Bootstrap](https://getbootstrap.com) and [jsPsych](https://www.jspsych.org), and can be run online or offline (it is configured to display a larger list of signs if it is being run offline and a longer timeout for ending the task).
 
 As this same web server could be easily adapted for running the task for a different set of signs or even a different sign language (see instructions below), the source code is being made public for other researchers to use.
 
