@@ -64,7 +64,7 @@ python manage.py seed --mode=refresh
 source .venv/bin/activate
 ```
 
-2. Start a development web server on your local machine:
+2. Start a web server on your local machine:
 
 ```
 gunicorn mysite.wsgi
