@@ -65,7 +65,7 @@ source .venv/bin/activate
 2. Start a development web server on your local machine:
 
 ```
-python manage.py runserver
+gunicorn mysite.wsgi
 ```
 
 This will start a development server at [localhost](http://127.0.0.1:8000). 
