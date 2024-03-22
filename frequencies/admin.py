@@ -5,7 +5,7 @@ from .models import Stimulus, Form, Reply
 
 @admin.register(Stimulus)
 class StimulusAdmin(admin.ModelAdmin):
-    list_display = ('term', 'file_name')
+    list_display = ('term', 'file_name', 'is_active')
 
 
 class ReplyInline(admin.TabularInline):

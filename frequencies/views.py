@@ -139,7 +139,7 @@ def index(request):
     		'preferred_language': static('hints/preferred_language.mp4'),
     		'lsu_fluency': static('hints/lsu_fluency.mp4')
     	},
-    	'stimuli': {static('terms/' + stimulus.file_name): stimulus.file_name for stimulus in Stimulus.objects.all()
+    	'stimuli': {static('terms/' + stimulus.file_name): stimulus.file_name for stimulus in Stimulus.objects.filter(is_active = True)
     	},
     	'mode': mode,
     	'modes': Form.Mode,

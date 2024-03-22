@@ -5,6 +5,7 @@ from django.utils.translation import gettext as _
 class Stimulus(models.Model):
 	term = models.CharField(max_length=50, verbose_name=_('Term'))
 	file_name = models.CharField(max_length=50, verbose_name=_('Filename'))
+	is_active = models.BooleanField(default=True, verbose_name=_('Is active'))
 
 	class Meta:
 		verbose_name = _('Stimulus')
